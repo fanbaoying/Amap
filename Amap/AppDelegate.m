@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "MapViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    MapViewController *mvc = [[MapViewController alloc]init];
+    
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:mvc];
+    
+    //隐藏导航栏
+    nav.navigationBarHidden = YES;
+    
+    self.window.rootViewController = nav;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

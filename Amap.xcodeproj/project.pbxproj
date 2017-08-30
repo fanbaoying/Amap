@@ -15,6 +15,11 @@
 		452534BE1F56B8EA00233CE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452534BC1F56B8EA00233CE1 /* LaunchScreen.storyboard */; };
 		452534C91F56B8EA00233CE1 /* AmapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 452534C81F56B8EA00233CE1 /* AmapTests.m */; };
 		452534D41F56B8EA00233CE1 /* AmapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 452534D31F56B8EA00233CE1 /* AmapUITests.m */; };
+		452534E81F56BB5B00233CE1 /* CommonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 452534E31F56BB5B00233CE1 /* CommonUtility.m */; };
+		452534E91F56BB5B00233CE1 /* BusStopAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 452534E51F56BB5B00233CE1 /* BusStopAnnotation.m */; };
+		452534EA1F56BB5B00233CE1 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 452534E71F56BB5B00233CE1 /* MapViewController.m */; };
+		452534F31F56BBFB00233CE1 /* agreeFirstNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 452534EF1F56BBFB00233CE1 /* agreeFirstNav.m */; };
+		59B4C20E1C4C94D707340372 /* libPods-Amap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A09A055CA07F536DD2141F5 /* libPods-Amap.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A09A055CA07F536DD2141F5 /* libPods-Amap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Amap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		452534AB1F56B8EA00233CE1 /* Amap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		452534AF1F56B8EA00233CE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		452534B11F56B8EA00233CE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,16 @@
 		452534CF1F56B8EA00233CE1 /* AmapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		452534D31F56B8EA00233CE1 /* AmapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmapUITests.m; sourceTree = "<group>"; };
 		452534D51F56B8EA00233CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		452534E21F56BB5B00233CE1 /* CommonUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtility.h; sourceTree = "<group>"; };
+		452534E31F56BB5B00233CE1 /* CommonUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtility.m; sourceTree = "<group>"; };
+		452534E41F56BB5B00233CE1 /* BusStopAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStopAnnotation.h; sourceTree = "<group>"; };
+		452534E51F56BB5B00233CE1 /* BusStopAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStopAnnotation.m; sourceTree = "<group>"; };
+		452534E61F56BB5B00233CE1 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		452534E71F56BB5B00233CE1 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		452534EE1F56BBFB00233CE1 /* agreeFirstNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = agreeFirstNav.h; sourceTree = "<group>"; };
+		452534EF1F56BBFB00233CE1 /* agreeFirstNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = agreeFirstNav.m; sourceTree = "<group>"; };
+		CACA6ED3A68EBC2DC694127D /* Pods-Amap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amap.release.xcconfig"; path = "Pods/Target Support Files/Pods-Amap/Pods-Amap.release.xcconfig"; sourceTree = "<group>"; };
+		D282DBC84C10CDE7C5642065 /* Pods-Amap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Amap/Pods-Amap.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59B4C20E1C4C94D707340372 /* libPods-Amap.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +95,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26029358EE0C8022B81ADB68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D282DBC84C10CDE7C5642065 /* Pods-Amap.debug.xcconfig */,
+				CACA6ED3A68EBC2DC694127D /* Pods-Amap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		452534A21F56B8EA00233CE1 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +111,8 @@
 				452534C71F56B8EA00233CE1 /* AmapTests */,
 				452534D21F56B8EA00233CE1 /* AmapUITests */,
 				452534AC1F56B8EA00233CE1 /* Products */,
+				26029358EE0C8022B81ADB68 /* Pods */,
+				FC833028D5F05505487A3D1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +129,8 @@
 		452534AD1F56B8EA00233CE1 /* Amap */ = {
 			isa = PBXGroup;
 			children = (
+				452534EB1F56BBFB00233CE1 /* agreeNav */,
+				452534E11F56BB4E00233CE1 /* Map */,
 				452534B11F56B8EA00233CE1 /* AppDelegate.h */,
 				452534B21F56B8EA00233CE1 /* AppDelegate.m */,
 				452534B41F56B8EA00233CE1 /* ViewController.h */,
@@ -140,6 +170,36 @@
 			path = AmapUITests;
 			sourceTree = "<group>";
 		};
+		452534E11F56BB4E00233CE1 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				452534E21F56BB5B00233CE1 /* CommonUtility.h */,
+				452534E31F56BB5B00233CE1 /* CommonUtility.m */,
+				452534E41F56BB5B00233CE1 /* BusStopAnnotation.h */,
+				452534E51F56BB5B00233CE1 /* BusStopAnnotation.m */,
+				452534E61F56BB5B00233CE1 /* MapViewController.h */,
+				452534E71F56BB5B00233CE1 /* MapViewController.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		452534EB1F56BBFB00233CE1 /* agreeNav */ = {
+			isa = PBXGroup;
+			children = (
+				452534EE1F56BBFB00233CE1 /* agreeFirstNav.h */,
+				452534EF1F56BBFB00233CE1 /* agreeFirstNav.m */,
+			);
+			path = agreeNav;
+			sourceTree = "<group>";
+		};
+		FC833028D5F05505487A3D1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A09A055CA07F536DD2141F5 /* libPods-Amap.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 452534D81F56B8EA00233CE1 /* Build configuration list for PBXNativeTarget "Amap" */;
 			buildPhases = (
+				50974AFE5411210C8F49E1D1 /* [CP] Check Pods Manifest.lock */,
 				452534A71F56B8EA00233CE1 /* Sources */,
 				452534A81F56B8EA00233CE1 /* Frameworks */,
 				452534A91F56B8EA00233CE1 /* Resources */,
+				15943B3A537314A924C87C63 /* [CP] Embed Pods Frameworks */,
+				EE505782175EB51FA30D6E83 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +270,7 @@
 				TargetAttributes = {
 					452534AA1F56B8EA00233CE1 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = KYKA84G3A2;
 						ProvisioningStyle = Automatic;
 					};
 					452534C31F56B8EA00233CE1 = {
@@ -268,14 +332,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15943B3A537314A924C87C63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Amap/Pods-Amap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50974AFE5411210C8F49E1D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE505782175EB51FA30D6E83 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Amap/Pods-Amap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		452534A71F56B8EA00233CE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				452534B61F56B8EA00233CE1 /* ViewController.m in Sources */,
+				452534E91F56BB5B00233CE1 /* BusStopAnnotation.m in Sources */,
+				452534F31F56BBFB00233CE1 /* agreeFirstNav.m in Sources */,
 				452534B31F56B8EA00233CE1 /* AppDelegate.m in Sources */,
+				452534EA1F56BB5B00233CE1 /* MapViewController.m in Sources */,
 				452534B01F56B8EA00233CE1 /* main.m in Sources */,
+				452534E81F56BB5B00233CE1 /* CommonUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,22 +538,26 @@
 		};
 		452534D91F56B8EA00233CE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D282DBC84C10CDE7C5642065 /* Pods-Amap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KYKA84G3A2;
 				INFOPLIST_FILE = Amap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Amap.a.Amap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AmapDemo.a;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		452534DA1F56B8EA00233CE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CACA6ED3A68EBC2DC694127D /* Pods-Amap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KYKA84G3A2;
 				INFOPLIST_FILE = Amap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Amap.a.Amap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AmapDemo.a;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -507,6 +627,7 @@
 				452534DA1F56B8EA00233CE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		452534DB1F56B8EA00233CE1 /* Build configuration list for PBXNativeTarget "AmapTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +636,7 @@
 				452534DD1F56B8EA00233CE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		452534DE1F56B8EA00233CE1 /* Build configuration list for PBXNativeTarget "AmapUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +645,7 @@
 				452534E01F56B8EA00233CE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
