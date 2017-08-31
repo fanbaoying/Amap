@@ -47,5 +47,5 @@ MAMapView *_mapView = [[MAMapView alloc] initWithFrame:self.view.bounds];
 }
 ```
 #### 6.项目截图
-![这里写图片描述](https://github.com/fanbaoying/Amap/blob/master/967CF155DCF347E3900A8B6C30A37DF5.png)
+![地图截图](https://github.com/fanbaoying/Amap/blob/master/967CF155DCF347E3900A8B6C30A37DF5.png)
 
